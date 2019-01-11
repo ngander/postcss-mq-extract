@@ -1,5 +1,5 @@
 {
-  "name": "postcss-mq-extract",
+  "name": "better-postcss-mq-extract",
   "version": "1.0.0",
   "description": "PostCSS plugin which extracts matched media queries to the separate file",
   "main": "index.js",
