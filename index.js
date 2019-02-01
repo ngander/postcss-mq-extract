@@ -2,7 +2,7 @@ var postcss  = require('postcss');
 var writeFile = require('write');
 var path     = require('path');
 
-module.exports = postcss.plugin('postcss-mq-extract', function(opts) {
+module.exports = postcss.plugin('better-postcss-mq-extract', function(opts) {
     return function(css, result) {
         // get fileinfo
         var fileinfo = path.parse(result.opts.to);
